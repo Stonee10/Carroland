@@ -1,0 +1,165 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: MADE;
+    font-size: 50px;
+}
+@font-face {
+    font-family: MADE;
+    src: url(fuentes/MADEMountain-Regular.otf);
+}
+header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+nav a:hover {
+    background-color: #ddd;
+}
+section{
+    padding: 25px;
+    text-align: center;
+}
+#atc{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+.caja{
+    text-align: center;
+
+}
+.c4{
+    grid-column: 1/4;
+}
+.c5{
+    grid-column: 1/4;
+}
+footer{
+    background-color: black;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+}
+.iconos a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.iconos a i{
+    font-size: 2em;
+    color: black;
+}
+.iconos a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.deque{
+    margin: 30px 0;
+}
+.deque ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.deque ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3m;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.deque ul li a:hover{
+    opacity: 1;
+}
+.bottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.bottom p{
+    color: white;
+}
+p{
+    font-size: 18px;
+}
+#atc button{
+    color: white;
+    background-color: red;
+    padding: 12px;
+    border: white;
+    transition: all 300ms;
+    position: relative;
+}
+#atc button:hover{
+    transform: scale(1.20);
+}
+.asist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border-radius: 35px;
+}
+.botones{
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto ;
+}
+.botones{
+    margin: auto;
+    margin-top: 15px;
+    background-color: #f4f4f4;
+}
+.botones label{
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: all 300ms ease;
+}
+.botones label:hover{
+    background-color: #c6c6c6;
+    color: red;
+}
+.botones .contenido-acordeon{
+    padding: 0px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+.btn-acordeon:checked ~ .contenido-acordeon{
+    max-height: 600px;
+    padding: 15px 0px;
+}
+.btn-acordeon{
+    display: none;
+}

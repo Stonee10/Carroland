@@ -1,0 +1,160 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    font-family: MADE;
+    font-size: 50px;
+}
+@font-face {
+    font-family: MADE;
+    src: url(fuentes/MADEMountain-Regular.otf);
+}
+header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+section{
+    padding: 25px;
+}
+.caja{
+    text-align: center;
+    line-height: 30PX;
+    width: auto;
+}
+h2{
+    font-size: 35px;
+    color: crimson;
+}
+#nosotros p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+img{
+    width: 400px;
+}
+.imag{
+    width: 50px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: black;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+}
+.iconos a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.iconos a i{
+    font-size: 2em;
+    color: black;
+}
+.iconos a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.deque{
+    margin: 30px 0;
+}
+.deque ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.deque ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3m;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.deque ul li a:hover{
+    opacity: 1;
+}
+.bottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.bottom p{
+    color: white;
+}
+#menu1 h2{
+    padding: 10px;
+}
+.jac ul{
+    display: flex;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.jac li{
+    position: relative;
+}
+.jac img{
+    width: 100%;
+}
+@keyframes slide {
+    0% {margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+.funciones {
+    display: flex;
+}
+.funciones img{
+    width: 100px;
+}
+.funciones .fun {
+    padding: 70px;
+}
+#ubi{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#ubi .caja1 {
+    padding: 100px;
+}
+iframe{
+    width: 700px;
+    height: 400px;
+}
